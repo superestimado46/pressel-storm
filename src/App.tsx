@@ -24,15 +24,19 @@ export default function App() {
           É sobre entender como esse tipo de conteúdo funciona.
         </p>
 
-        <a
-          href={LINK_VSL}
-          className="mt-8 inline-flex items-center gap-2 bg-tiktok.cyan text-black px-6 py-4 rounded-xl font-bold hover:scale-105 transition"
-        >
-          Ver o vídeo completo
-          <ArrowRight size={20} />
-        </a>
-
-      </div>
-    </main>
+       <a
+  href={LINK_VSL}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-8 inline-flex items-center gap-2 px-8 py-5 rounded-2xl font-black text-lg text-white 
+  bg-[#ff0033] 
+  shadow-[0_0_20px_rgba(255,0,51,0.8)] 
+  hover:scale-105 
+  hover:shadow-[0_0_30px_rgba(255,0,51,1)] 
+  transition-all duration-300 animate-pulse"
+>
+  Ver o vídeo completo
+  <ArrowRight size={22} />
+</a>
   );
 }
