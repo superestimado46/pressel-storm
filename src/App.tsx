@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 
 export default function App() {
-  const LINK_VSL = "https://SEU-LINK-AQUI.com";
+  const LINK_VSL = "https://stormclips.netlify.app/";
 
   return (
     <main className="min-h-screen bg-tiktok-black text-white flex items-center justify-center px-4">
