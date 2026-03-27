@@ -29,6 +29,11 @@ export default function App() {
           href={LINK_VSL}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => {
+            if (typeof window !== "undefined" && window.fbq) {
+              window.fbq('track', 'ViewContent');
+            }
+          }}
           className="mt-8 inline-flex items-center gap-2 px-8 py-5 rounded-2xl font-black text-lg text-white
           bg-red-600
           shadow-[0_0_25px_rgba(255,0,0,0.8)]
